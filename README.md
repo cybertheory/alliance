@@ -1,7 +1,9 @@
 # alliance
 An intelligent, AI-driven model router ⚡ Powered by [Gorilla](https://github.com/ShishirPatil/gorilla)
 
-**The `alliance` model router package enables natural language AI pipelining over all LLM APIs**. Simply instaniate the `alliance` object and pass in your prompts with a description of your input and what alliance should optimize for.
+**The `alliance` model router package enables natural language AI pipelining over all LLM APIs**. 
+
+Simply instaniate the `alliance` object and pass in your prompts with a description of your input and what alliance should optimize for.
 
 No more hardcoded conditional logic or guessing which model is cost efficent or is faster for your use case. The `alliance` object will handle this for you.
 
