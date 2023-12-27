@@ -12,7 +12,7 @@ No more hardcoded conditional logic or guessing which model is cost efficent or 
 ```python
 from alliance import Alliance
 
-client = Alliance("keep costs down while optimizing for conversation with image generation capabilities", verbose=True)
+client = Alliance("keep costs down while optimizing for conversation with image generation capabilities")
 
 client.route("Hi! Can you generate an image of a dog and name it for me?")
 ```
@@ -21,7 +21,7 @@ client.route("Hi! Can you generate an image of a dog and name it for me?")
 DEBUG: selected {some api endpoint}
 OUTPUT: This is Leo!
 ```
-![DALL·E 2023-12-26 22 16 08 - create a dog for me](https://github.com/cybertheory/alliance/assets/27149047/4e2d9901-5635-4217-97c3-dc287cf1902b)
+<a href="url"><img src="https://github.com/cybertheory/alliance/assets/27149047/4e2d9901-5635-4217-97c3-dc287cf1902b" align="left" height="500" ></a>
 
 ## What is Model Routing
 After utillizing LLMs for a while you will notice many models sitting behind endpoints are optimized for certain usecases. In order to optimize costs and limited resources for any input it is essential to have some sort of intelligent model routing. 'alliance' offers model routing over all the most popular and some obscure LLMs allowing for one request to be made and utilizing the perfect AI model for the job without any extra work.
