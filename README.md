@@ -19,5 +19,5 @@ The `alliance_cli` is a convenience package to help you configure your APIKEYS f
 **If deploying to external runtimes and set environment variables for api_keys please use `alliance configure --gitignore false ` to set up a _keys.txt file in the correct format with your env variables**
 
 ## Config
-`alliance` does require an api-key to be created for every service and loaded into environment variables. These can be managed with the `alliance CLI` . **In an ideal world, we would have done this for you automatically and this is under development**  
+`alliance` does require an api-key to be provided for every supported service. These can be managed with the `alliance_cli` . **In an ideal world, we would have done this for you automatically and this is under development**  
 
