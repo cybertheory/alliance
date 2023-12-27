@@ -1,11 +1,27 @@
 # alliance
 An intelligent, AI-driven model router ⚡ Powered by [Gorilla](https://github.com/ShishirPatil/gorilla)
 
-**The `alliance` model router package enables natural language AI pipelining over all LLM APIs**. 
+**The `alliance` model router package enables natural language AI routing for your workflows over popular LLM endpoints**. 
 
-Simply instaniate the `alliance` object and pass in your prompts with a description of your input and what alliance should optimize for.
+Simply instaniate the `alliance` object and pass in your prompts with a description of your input and what `alliance` should optimize for.
+
+`alliance` picks the best endpoint to process your input based on the requirements.
 
 No more hardcoded conditional logic or guessing which model is cost efficent or is faster for your use case. The `alliance` object will handle this for you.
+
+```{python}
+from alliance import LLMAlliance
+
+client = LLMAlliance("keep costs down while optimizing for conversation with image generation capabilities", verbose=True)
+
+client.call("Hi! Can you generate an image of a dog and name it for me?")
+```
+
+```
+DEBUG: selected {some api endpoint}
+OUTPUT: This is Leo!
+![DALL·E 2023-12-26 22 16 08 - create a dog for me](https://github.com/cybertheory/alliance/assets/27149047/4e2d9901-5635-4217-97c3-dc287cf1902b)
+```
 
 ## What is Model Routing
 After utilizng LLMs for a while you will notice many models sitting behind endpoints are optimized for certain usecases. In order to optimize costs and limited resources for any input it is essential to have some sort of intelligent model routing. 'alliance' offers model routing over all the most popular and some obscure LLMs allowing for one request to be made and utilizing the perfect AI model for the job without any extra work.
