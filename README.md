@@ -9,10 +9,10 @@ Simply instaniate the `alliance` object and pass in your prompts with a descript
 
 No more hardcoded conditional logic or guessing which model is cost efficent or is faster for your use case. The `alliance` object will handle this for you.
 
-```{python}
-from alliance import LLMAlliance
+```python
+from alliance import Alliance
 
-client = LLMAlliance("keep costs down while optimizing for conversation with image generation capabilities", verbose=True)
+client = Alliance("keep costs down while optimizing for conversation with image generation capabilities", verbose=True)
 
 client.call("Hi! Can you generate an image of a dog and name it for me?")
 ```
