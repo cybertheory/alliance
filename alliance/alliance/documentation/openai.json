@@ -1,0 +1,20 @@
+{  
+        "name" : "Chat Completion with OpenAI",
+        "api_call": "uber.eat.order",
+        "description": "Order food on uber eat given a list of items and the quantity of items respectively",
+        "parameters": 
+            [
+                {
+                    "name": "restaurants", 
+                    "description": "The restaurants user wants to order from" 
+                }, 
+                {
+                    "name": "items", 
+                    "description": "A list of order user wants to order from restaurants"
+                },
+                {
+                    "name": "quantities", 
+                    "description": "A list of quantities corresponding to the items ordered"
+                }
+            ]
+        }

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "argparse"]
+build-backend = "hatchling.build"
+
+[project]
+name = "alliance_cli"
+version = "0.0.1"
+authors = [
+  { name="Rishabh Singh", email="rishabhsingh@berkeley.edu" },
+]
+description = "CLI convenience tool for alliance model router"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/cybertheory/alliance/tree/main/alliance_cli"
+Issues = "https://github.com/cybertheory/alliance/issues"
