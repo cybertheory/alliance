@@ -1,5 +1,5 @@
 # alliance
-An intelligent, AI-driven model router ⚡ Powered by [Gorilla](https://github.com/ShishirPatil/gorilla)
+An intelligent, AI-driven model router ⚡ Powered by [Gorilla](https://gorilla.cs.berkeley.edu/)
 
 **The `alliance` model router package enables natural language AI routing for your workflows over popular LLM endpoints**. 
 
